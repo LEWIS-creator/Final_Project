@@ -1,0 +1,432 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  padding-top: 90px;
+  margin: 0;
+  background-color: whitesmoke;
+  min-width: 1024px;
+}
+
+section {
+  scroll-margin-top: 120px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navItem a{
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 600px;
+  color: bl;
+}
+
+#home{
+  
+}
+
+.Uber1 {
+  margin-top: 20px;
+  width: 90%;
+  height: 500px;
+  background-color: blanchedalmond;
+  border-radius: 40px;
+  align-content: center;
+}
+
+.Uber1 h1 {
+  font-size: 45px;
+}
+
+.Uber1 p {
+  margin-top: -30px;
+  font-size: 18px;
+}
+
+.Uber1 a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Uber2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  margin-top: 50px;
+  width: 90%;
+  height: 500px;
+}
+
+.Uber2a {
+  width: 50%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.Uber2 h1,
+.Uber3 h1,
+.Uber4a h1,
+.Uber4b h1,
+.Uber5 h1 {
+  font-size: 38px;
+}
+
+.Uber2a .p,
+.Uber4a p,
+.Uber4b p{
+  margin-top: -20px;
+  font-size: 18px;
+}
+
+.Uber2a a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Uber2b {
+  width: 50%;
+}
+
+.Uber2b img {
+  border-radius: 20px;
+}
+
+.Uber3 {
+  margin-top: -50px;
+}
+
+.Uber3 .p {
+  margin-top: -10px;
+}
+.Uber3 p,
+.Uber5 p {
+  font-size: 18px;
+}
+
+.Uber4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 90%;
+}
+
+.Uber4a,
+.Uber4b {
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+.Uber4a {
+  width: 40%;
+  border-radius: 20px;
+  text-align: left;
+  background-color: blanchedalmond;
+}
+
+.Uber4b {
+  width: 40%;
+  text-align: left;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.Uber4a a,
+.Uber4b a,
+.Uber5 a {
+  text-decoration: none;
+  color: white;
+  border: 2px;
+  margin-top: 10px;
+  background-color: black;
+  border-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Uber5 {
+  width: 90%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.Uber5 h1,
+.Uber5 p,
+.Uber5 a{
+  margin-left: 70px;
+}
+
+.arrows {
+  font-size: 20px;
+  display: flex;
+}
+
+.Uber6 {
+  width: 90%;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+
+  display: flex;
+  
+}
+
+.Uber6a {
+  width: 40%;
+  text-align: left;
+}
+
+.Uber6b {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.test {
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+  height: auto;
+}
+
+.test1 {
+  background-color: blanchedalmond;
+}
+
+.test2 {
+  color: black;
+  background-color: beige;
+}
+
+.Uber7 {
+  width: 90%;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.partnerspic {
+  width: 80%;
+}
+
+.Uber8 {
+  margin-top: 100px;
+}
+
+.Uber9 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Uber9 div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.Uber9 a,
+.Uber10 a{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.Uber9a a{
+  background-color: orange;
+}
+.Uber9b a{
+  background-color: green;
+}
+.Uber9c a{
+  background-color: palevioletred;
+}
+
+.Uber10 a {
+  background-color: blueviolet;
+  margin: 20px;
+}
+
+.Uber10 {
+  text-align: left;
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.Uber11 {
+  margin-top: 80px;
+  width: 90%;
+  text-align: left;
+}
+
+.Uber11 img {
+  height: 250px;
+}
+
+.Uber11b {
+  display: flex;
+}
+
+    .faq-container {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    details {
+      background: white;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      cursor: pointer;
+    }
+
+    summary {
+      font-size: 1rem;
+      font-weight: bold;
+      list-style: none;
+      color: blue;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: '+';
+      float: right;
+      font-size: 1.2rem;
+    }
+
+    details[open] summary::after {
+      content: '-';
+    }
+
+    .faq-content {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: lightseagreen;
+    }
+
+.con {
+  width: 90%;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+form input {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+form a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  text-align: left;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.footerUber1 {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  width: 40%;
+}
+.footerItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerUber2 {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: coral;
+  color: white;
+  width: 40%
+}
+
+.footerUber2 a {
+  text-decoration: none;
+  color: black;
+  background-color: cornflowerblue;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
